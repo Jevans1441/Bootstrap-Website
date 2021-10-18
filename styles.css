@@ -46,7 +46,7 @@ a.nav-link:active {
     justify-content: center;
     flex-direction: column;
     background-color: white;
-    max-width: 80vh;
+    width: 80vh;
     height: 100%;
     margin-bottom: 40px;
 }
@@ -156,4 +156,25 @@ a.food-review:visited {
 .container {
     justify-content: center;
     align-items: center;
+}
+.grid {
+    padding: 40px;
+}
+.head4 {
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    font-size: 16;
+    margin: 10px;
+}
+.bodytext {
+    font-family: "comic sans ms";
+    font-weight: 100;
+    font-size: 16;
+    color: #000000;
+    text-align: left;
+    margin: 10px;
+}
+.grid-children {
+    background-color: lightgray;
+    
 }
