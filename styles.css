@@ -19,6 +19,7 @@ body {
 .justify-content-center {
     max-width: 80vh;
 }
+/* nav menu used on every page */
 .nav-item {
     flex: 2;
     background-color: #A4BC38;
@@ -40,6 +41,9 @@ a.nav-link:hover {
 a.nav-link:active {
     color: white;
 }
+/* end nav menu */
+
+/* flex-container used on every page/layout */
 .flex-container {
     flex: 3;
     display: flex;
@@ -70,22 +74,29 @@ a.nav-link:active {
     padding-right: 40px;
     padding-bottom: 40px;
 }
-img {
+
+/* controls img on home page */
+img {  
     float: left;
     width: 400px;
     height: 258px;
     margin-left: 40px;
     margin-right: 20px;
 }
+
+/* bold weight for all pages */
 b {
     font-weight: 600;
 }
+/* span only used on home page */
 span {
     font-family: "comic sans ms";
     font-size: 14px;
     font-weight: 100;
-    
 }
+/* end span */
+
+/* controls email class */
 a.email:link {
     color: #666633;
     font-family: 'Times New Roman';
@@ -107,11 +118,15 @@ a.email-switch:hover {
 a.email-switch:active {
     text-decoration: none !important;
 }
+/* end email class */
+
 .envelope {
     border: 0px;
     width: 18px;
     height: 15px;
 }
+
+/* food review email HOME page */
 .food-review {
     text-decoration: none;
     color: #666633;
@@ -126,6 +141,9 @@ a.food-review:hover {
 a.food-review:visited {
     color: #666633;
 }
+/* end food-review email class */
+
+/* only used on location page */
 .huynh-address {
     width: 396px;
     height: 292px;
@@ -133,6 +151,8 @@ a.food-review:visited {
     color: rgb(179, 178, 178);
     margin-bottom: 270px;
 }
+
+
 .col-4 {
     margin-left: 45px;
     margin-right: 0px;
@@ -146,10 +166,13 @@ a.food-review:visited {
     font-weight: 100;
     margin-right: 0px
 }
+
 .location-blockheader {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+/* controls for location page see below where it ends */
 .col-6 {
     margin-left: -40px;
 }
@@ -180,6 +203,9 @@ a.food-review:visited {
     background-color: lightgray;
     padding: 0px;
 }
+/* ends controls on location page */
+
+/* added controls for home page */
 .head-home {
     font-family: 'times new roman';
     font-weight: 600;
@@ -196,3 +222,4 @@ a.food-review:visited {
     padding-top: 8px;
     padding-bottom: 8px;
 }
+/* ends added controls */
