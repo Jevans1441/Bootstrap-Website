@@ -176,5 +176,20 @@ a.food-review:visited {
 }
 .grid-children {
     background-color: lightgray;
-    
+}
+.head-home {
+    font-family: 'times new roman';
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-align: left;
+}
+.italics {
+    font-style: italic;   
+}
+.bodytext-home {
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
