@@ -1,0 +1,159 @@
+html {
+    display: table;
+    margin: auto;
+}
+header {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    font-family: georgia;
+}
+.h2 {
+    color: white;
+    font-size: 24px;
+}
+body {
+    background-color: black;
+}
+.justify-content-center {
+    max-width: 80vh;
+}
+.nav-item {
+    flex: 2;
+    background-color: #A4BC38;
+    color: #FCFBF9;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Comic Sans MS';
+}
+a.nav-link:link {
+    color: white;
+    text-decoration: none !important;
+}
+a.nav-link:visited {
+    color: white;
+}
+a.nav-link:hover {
+    color: white;
+}
+a.nav-link:active {
+    color: white;
+}
+.flex-container {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    max-width: 80vh;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: left;
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.para1 {
+    background-color: white;
+    font-family: "comic sans ms";
+    font-size: 16px;
+    font-weight: 100;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+img {
+    float: left;
+    width: 400px;
+    height: 258px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+b {
+    font-weight: 600;
+}
+span {
+    font-family: "comic sans ms";
+    font-size: 14px;
+    font-weight: 100;
+    
+}
+a.email:link {
+    color: #666633;
+    font-family: 'Times New Roman';
+    text-decoration: none !important;
+}
+.email-switch {
+    color: #666633;
+    font-size: 11px;
+}
+a.email-switch:link {
+    text-decoration: none !important;
+}
+a.email-switch:visited {
+    text-decoration: none !important;
+}
+a.email-switch:hover {
+    text-decoration: none !important;
+}
+a.email-switch:active {
+    text-decoration: none !important;
+}
+.envelope {
+    border: 0px;
+    width: 18px;
+    height: 15px;
+}
+.food-review {
+    text-decoration: none;
+    color: #666633;
+}
+a.food-review:active {
+    color: #666633;
+}
+a.food-review:hover {
+    color: #666633;
+    text-decoration: underline;
+}
+a.food-review:visited {
+    color: #666633;
+}
+.huynh-address {
+    width: 396px;
+    height: 292px;
+    border: 20px solid;
+    color: rgb(179, 178, 178);
+    margin-bottom: 270px;
+}
+.col-4 {
+    margin-left: 45px;
+    margin-right: 0px;
+    border: 20px solid;
+    border-color: rgb(179, 178, 178);
+    background-color: rgb(179, 178, 178);
+    height: 292px;
+    color: black;
+    font-family: "comic sans ms";
+    font-size: 14;
+    font-weight: 100;
+    margin-right: 0px
+}
+.location-blockheader {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.col-6 {
+    margin-left: -40px;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+}
